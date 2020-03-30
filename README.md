@@ -1,21 +1,8 @@
-<div align="center">
+# `sigplot-bitarray`
 
-  <h1><code>sigplot-bitarray</code></h1>
+**A Rust implementation of SigPlot's bluefile.js BitArray in Rust and cross-compiled to wasm using [wasm-pack](https://github.com/rustwasm/wasm-pack).**
 
-  <strong>A Rust implementation of SigPlot's bluefile.js BitArray in Rust and cross-compiled to wasm using <a href="https://github.com/rustwasm/wasm-pack">wasm-pack</a>.</strong>
-
-  <p>
-    <a href="https://travis-ci.org/rustwasm/wasm-pack-template"><img src="https://img.shields.io/travis/rustwasm/wasm-pack-template.svg?style=flat-square" alt="Build Status" /></a>
-  </p>
-
-  <h3>
-    <a href="https://rustwasm.github.io/docs/wasm-pack/tutorials/npm-browser-packages/index.html">Tutorial</a>
-    <span> | </span>
-    <a href="https://discordapp.com/channels/442252698964721669/443151097398296587">Chat</a>
-  </h3>
-
-  <sub>Built with 🦀🕸 by <a href="https://rustwasm.github.io/">The Rust and WebAssembly Working Group</a></sub>
-</div>
+![Rust](https://github.com/mrecachinas/sigplot-bitarray/workflows/Rust/badge.svg)
 
 ## About
 
