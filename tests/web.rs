@@ -2,10 +2,10 @@
 
 #![cfg(target_arch = "wasm32")]
 
-extern crate bitarray;
+extern crate sigplot_bitarray;
 extern crate wasm_bindgen_test;
 
-use bitarray::{BitArray};
+use sigplot_bitarray::{BitArray};
 use wasm_bindgen_test::*;
 
 wasm_bindgen_test_configure!(run_in_browser);
