@@ -5,6 +5,7 @@ authors = ["Michael Recachinas <mike@recachinas.dev>"]
 edition = "2018"
 license = "apache-2.0"
 repository = "https://github.com/mrecachinas/sigplot-bitarray"
+description = "BitArray implementation in WebAssembly"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
