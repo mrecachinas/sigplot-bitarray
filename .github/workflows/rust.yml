@@ -22,3 +22,5 @@ jobs:
         version: "v0.9.1"
     - name: Run tests in headless Firefox
       run: wasm-pack test --headless --firefox
+    - name: Run tests in headless Chrome
+      run: wasm-pack test --headless --chrome
