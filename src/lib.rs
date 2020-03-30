@@ -4,16 +4,8 @@ extern crate js_sys;
 extern crate web_sys;
 
 use std::cmp::{min};
-use std::ops::{Index, IndexMut};
 use js_sys::{ArrayBuffer, Uint8Array};
 use wasm_bindgen::prelude::*;
-
-// A macro to provide `println!(..)`-style syntax for `console.log` logging.
-macro_rules! log {
-    ( $( $t:tt )* ) => {
-        web_sys::console::log_1(&format!( $( $t )* ).into());
-    }
-}
 
 // When the `wee_alloc` feature is enabled, use `wee_alloc` as the global
 // allocator.
