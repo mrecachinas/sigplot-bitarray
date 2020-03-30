@@ -3,6 +3,8 @@ name = "sigplot-bitarray"
 version = "0.1.0"
 authors = ["Michael Recachinas <mike@recachinas.dev>"]
 edition = "2018"
+license = "apache-2.0"
+repository = "https://github.com/mrecachinas/sigplot-bitarray"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
